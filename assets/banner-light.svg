@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
-  <title id="title">Veer Patel — AI, machine learning, and research</title>
-  <desc id="desc">Start with a question. Follow it deeper. A branching graph connects curiosity to research.</desc>
+  <title id="title">Veer Patel — AI Research Engineer</title>
+  <desc id="desc">From research ideas to working AI systems. A branching diagram represents exploration, training, and deployment.</desc>
   <defs>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#DCE4DB"/></pattern>
     <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#A6C2B0"/><stop offset="1" stop-color="#387958"/></linearGradient>
@@ -8,10 +8,10 @@
   <rect x="1" y="1" width="998" height="298" rx="16" fill="#F3F6EF" stroke="#D9E2D5"/>
   <path d="M610 1H983Q999 1 999 17V283Q999 299 983 299H610Z" fill="url(#grid)"/>
   <path d="M48 48H80" stroke="#376E4E" stroke-width="3"/>
-  <text x="94" y="53" fill="#376E4E" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="2">AI / MACHINE LEARNING / RESEARCH</text>
+  <text x="94" y="53" fill="#376E4E" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="2">AI RESEARCH ENGINEER / APPLIED AI</text>
   <text x="46" y="131" fill="#20372B" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="650" letter-spacing="-2">Veer Patel</text>
-  <text x="48" y="176" fill="#526758" font-family="Segoe UI,Arial,sans-serif" font-size="22">Start with a question.</text>
-  <text x="48" y="207" fill="#526758" font-family="Segoe UI,Arial,sans-serif" font-size="22">Follow it deeper.</text>
+  <text x="48" y="176" fill="#526758" font-family="Segoe UI,Arial,sans-serif" font-size="22">From research ideas</text>
+  <text x="48" y="207" fill="#526758" font-family="Segoe UI,Arial,sans-serif" font-size="22">to working AI systems.</text>
   <text x="49" y="266" fill="#617462" font-family="Consolas,monospace" font-size="12" letter-spacing="1">@Veer1801</text>
   <g fill="none" stroke="url(#edge)" stroke-width="1.7">
     <path d="M650 150C685 150 685 80 724 80M650 150C685 150 685 220 724 220M650 150H824M736 80C787 80 787 150 824 150M736 220C787 220 787 150 824 150M842 150C878 150 878 94 914 94M842 150C878 150 878 206 914 206"/>
@@ -22,7 +22,7 @@
   <circle cx="834" cy="150" r="17" fill="#427553"/>
   <circle cx="834" cy="150" r="5" fill="#E2EDDE"/>
   <text x="730" y="56" text-anchor="middle" fill="#617462" font-family="Consolas,monospace" font-size="11">explore</text>
-  <text x="730" y="250" text-anchor="middle" fill="#617462" font-family="Consolas,monospace" font-size="11">question</text>
-  <text x="834" y="188" text-anchor="middle" fill="#526758" font-family="Consolas,monospace" font-size="11">connect</text>
+  <text x="730" y="250" text-anchor="middle" fill="#617462" font-family="Consolas,monospace" font-size="11">train</text>
+  <text x="834" y="188" text-anchor="middle" fill="#526758" font-family="Consolas,monospace" font-size="11">deploy</text>
   <circle cx="974" cy="26" r="3" fill="#427553"/>
 </svg>

@@ -1,87 +1,98 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Veer Patel — AI, machine learning, and research. Start with a question. Follow it deeper." src="assets/banner-light.svg" width="100%">
+  <img alt="Veer Patel — AI Research Engineer. From research ideas to working AI systems." src="assets/banner-light.svg" width="100%">
 </picture>
 
 <p align="center">
-  <a href="#research-spotlight">Research</a> &nbsp; / &nbsp;
-  <a href="#follow-a-thread">Follow a thread</a> &nbsp; / &nbsp;
-  <a href="#lets-connect">Connect</a>
+  <a href="https://www.linkedin.com/in/veerpatel1801/"><b>LinkedIn</b></a> &nbsp; · &nbsp;
+  <a href="https://github.com/Veer1801/Veer1801/blob/main/resume/Veer-Patel-Resume.pdf"><b>Resume (PDF)</b></a> &nbsp; · &nbsp;
+  <a href="https://leetcode.com/u/Veer_18/"><b>LeetCode</b></a> &nbsp; · &nbsp;
+  <a href="mailto:veerpatel1801@gmail.com"><b>Email</b></a>
 </p>
 
 ## Hi, I'm Veer.
 
-I'm a developer focused on **AI, machine learning, and research**. I'm curious about how models represent information, reason about relationships, and arrive at decisions we can understand.
+**AI Research Engineer · Applied machine learning · Generative AI · ML systems**
 
-My public research explores **computer vision, adaptive tokenization, and graph-based reasoning**. I like questions that lead from an intuition to a mathematical formulation—and then to an experiment that could prove it wrong.
+I build AI systems across **computer vision, drug discovery, and LLM applications**, with **2+ years of industry experience** taking work from problem definition and data pipelines through model training, deployment, and product integration.
 
-> Understand the assumptions. Ask a better question. Let the evidence lead.
+My work combines hands-on engineering, collaboration with domain experts, and technical leadership. I enjoy turning research ideas into software that solves a concrete problem.
 
-## Research spotlight
+[Experience](#experience) &nbsp; / &nbsp; [Selected projects](#selected-projects) &nbsp; / &nbsp; [Technical toolkit](#technical-toolkit) &nbsp; / &nbsp; [Connect](#lets-connect)
 
-### [DAG-ViT · Vision Transformers with Adaptive Graph Reasoning](https://github.com/Veer1801/DAG-ViT)
+## Experience
 
-**What if a vision model could learn which image regions matter—and how they relate?**
+### Nuvo AI · Software Development Engineer (AI)
 
-DAG-ViT is my theoretical proposal for combining adaptive token selection with directed acyclic graph reasoning in a vision transformer.
+*June 2024 – Present · Vapi, India*
 
-- **The idea:** move beyond a fixed patch grid to explore selective, relational image representations.
-- **The formulation:** bring together soft attention, graph neural networks, transformers, and an acyclicity constraint.
-- **The stage:** mathematical formulation and research paper. Implementation and empirical validation remain next steps.
+- **Medical imaging:** led development of an orthopedic trauma AI platform processing **100,000+ X-ray images**, combining object detection, transformer classification, and hierarchical inference.
+- **Drug discovery:** built generative molecular design workflows spanning pharmacophore conditioning, fragment optimization, docking, and candidate prioritization, working with structural biologists and medicinal chemists.
+- **Engineering & leadership:** led a **six-person team of engineers and interns**; built distributed multi-GPU training pipelines and FastAPI services for model deployment.
 
-[Explore the repository →](https://github.com/Veer1801/DAG-ViT) &nbsp; · &nbsp; [Read the paper →](https://github.com/Veer1801/DAG-ViT/blob/main/DAG_VIT_PAPER.pdf)
+### Tech Curve AI and Innovations · Product Owner & Data Scientist
+
+*October 2023 – April 2024 · Remote, Bangkok-based team*
+
+- Built a **LLaMA-based resume ranking engine**, reducing recruiter screening time by **approximately 70%**.
+- Owned product workflows and backend architecture for HR automation; developed NLP pipelines for document parsing, semantic matching, and vendor recommendations.
+
+## Selected projects
+
+### Equity Research AI Tool
+
+Question answering over financial news and reports using **LangChain and Mistral**, with document ingestion and semantic retrieval for financial analysis.
+
+*Applied LLM project · Described in my [resume](https://github.com/Veer1801/Veer1801/blob/main/resume/Veer-Patel-Resume.pdf).*
+
+### Stock Market Prediction
+
+My master's thesis explored financial time-series forecasting with **LSTM, Random Forest, and MLP models**, including feature engineering and comparative model evaluation.
+
+*Master's thesis · Described in my [resume](https://github.com/Veer1801/Veer1801/blob/main/resume/Veer-Patel-Resume.pdf).*
+
+### [DAG-ViT](https://github.com/Veer1801/DAG-ViT)
+
+A research proposal exploring **adaptive image tokenization and directed graph reasoning** in vision transformers. The mathematical formulation and paper are available; implementation and empirical validation are future work.
+
+[Repository](https://github.com/Veer1801/DAG-ViT) &nbsp; · &nbsp; [Research paper](https://github.com/Veer1801/DAG-ViT/blob/main/DAG_VIT_PAPER.pdf)
+
+## Technical toolkit
+
+- **Languages & ML:** Python, SQL, JavaScript · PyTorch, TensorFlow, scikit-learn, OpenCV
+- **Generative AI:** Hugging Face, Transformers, LangChain, RAG, PEFT, QLoRA
+- **Training & deployment:** DeepSpeed, Accelerate, FastAPI, Docker, MLflow, AWS S3/EC2
 
 <details>
-<summary><b>Look inside the idea</b></summary>
+<summary><b>Engineering depth — from datasets to serving</b></summary>
 
-The proposal connects three questions:
+My work includes modular pipelines for data ingestion, preprocessing, distributed training, inference, and REST APIs. I've used MinIO/S3, caching, and fault-tolerant data loading to support large datasets, and FastAPI with Pydantic for backend services.
 
-1. **What should the model attend to?** Adaptive tokenization uses soft attention to select relevant image information.
-2. **How should those tokens interact?** A directed graph represents dependencies between tokens, alongside transformer and graph-based reasoning.
-3. **How can the graph stay acyclic?** A differentiable DAG constraint is part of the proposed formulation.
-
-Medical and satellite imagery are potential application areas discussed in the project. Establishing usefulness would require implementation, suitable baselines, and experiments.
+I also work with model evaluation, ONNX, NVIDIA Triton Inference Server, and BentoML. Technical planning, code reviews, and collaboration with scientific and clinical teams are part of how I deliver projects.
 
 </details>
 
-## Follow a thread
-
-Research starts with curiosity. Open a question below.
-
 <details>
-<summary><b>01 / Can a model see less and understand more?</b></summary>
+<summary><b>Research interests — questions I keep exploring</b></summary>
 
-I'm interested in the tradeoff between selecting fewer image tokens and preserving the information needed for a task. Fewer tokens alone are not enough: the important question is what happens to accuracy, computation, and robustness.
+I'm interested in efficient vision models, structured reasoning, generative molecular modeling, and LLM/VLM agents. I want to understand when an architectural idea improves a useful outcome, and when the simpler baseline is enough.
 
-**An experiment I'd like to run:** compare adaptive token selection with a fixed patch grid under the same compute budget.
+My approach: make assumptions explicit, define a fair comparison, examine failure cases, and revise the idea based on evidence.
 
 </details>
 
 <details>
-<summary><b>02 / When does structure help a model reason?</b></summary>
+<summary><b>Education & academic recognition</b></summary>
 
-Graphs offer a way to represent relationships explicitly. I'm curious about when that structure adds useful information, how it interacts with attention, and when its extra complexity is justified.
-
-**A question worth testing:** does learned graph structure improve performance over attention alone, and which connections actually matter?
-
-</details>
-
-<details>
-<summary><b>03 / What would change my mind?</b></summary>
-
-A promising idea should survive a fair comparison. My research mindset is to make assumptions explicit, start with a clear baseline, and ask what evidence would challenge the original intuition.
-
-**The loop I aim for:** question → read → formulate → implement → evaluate → revise.
-
-I value clear limitations and useful negative results as part of that process.
+- **M.Tech, Computer Science Engineering (AI & ML)** — Ajeenkya D.Y. Patil University, 2021–2023 · **CGPA 9.02 · Gold medalist, ranked 1st**
+- **B.Tech, Electronics & Telecommunication Engineering** — A.D. Patel Institute of Technology, 2017–2021
+- **Publication:** *Different Approaches to Stock Market Prediction Using AI*
 
 </details>
 
 ## Let's connect
 
-Interested in computer vision, graph learning, or a thoughtful discussion about an ML idea? I'd be glad to connect.
+Interested in **AI/ML engineering, applied AI, and research engineering opportunities**, and conversations about building useful AI systems.
 
-[Email me](mailto:veerpatel1801@gmail.com) &nbsp; · &nbsp; [Explore my repositories](https://github.com/Veer1801?tab=repositories)
-
-<sub>Always curious. Always willing to revise an assumption.</sub>
+[LinkedIn](https://www.linkedin.com/in/veerpatel1801/) &nbsp; · &nbsp; [View my resume](https://github.com/Veer1801/Veer1801/blob/main/resume/Veer-Patel-Resume.pdf) &nbsp; · &nbsp; [LeetCode](https://leetcode.com/u/Veer_18/) &nbsp; · &nbsp; [Email me](mailto:veerpatel1801@gmail.com)

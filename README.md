@@ -40,6 +40,14 @@ My work combines hands-on engineering, collaboration with domain experts, and te
 
 ## Selected projects
 
+### [IssuePilot](https://github.com/Veer1801/IssuePilot)
+
+A local workbench that turns GitHub issue reports into **reviewable category suggestions, missing-detail checks, and follow-up drafts**. Built with **React, TypeScript, FastAPI, and SQLite**, with optional local Laya classification.
+
+Includes human review, version-checked updates, audit history, safe Markdown rendering, and automated API and browser tests.
+
+[Repository and screenshots](https://github.com/Veer1801/IssuePilot) &nbsp; · &nbsp; [Architecture](https://github.com/Veer1801/IssuePilot/blob/main/docs/architecture.md)
+
 ### Equity Research AI Tool
 
 Question answering over financial news and reports using **LangChain and Mistral**, with document ingestion and semantic retrieval for financial analysis.

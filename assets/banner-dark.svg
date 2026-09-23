@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">Veer Patel — AI, machine learning, and research</title>
+  <desc id="desc">Start with a question. Follow it deeper. A branching graph connects curiosity to research.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#263A38"/></pattern>
+    <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#365C53"/><stop offset="1" stop-color="#7CDABD"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="998" height="298" rx="16" fill="#101B1A" stroke="#2B403A"/>
+  <path d="M610 1H983Q999 1 999 17V283Q999 299 983 299H610Z" fill="url(#grid)"/>
+  <path d="M48 48H80" stroke="#94E2C5" stroke-width="3"/>
+  <text x="94" y="53" fill="#94E2C5" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="2">AI / MACHINE LEARNING / RESEARCH</text>
+  <text x="46" y="131" fill="#F0F5F0" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="650" letter-spacing="-2">Veer Patel</text>
+  <text x="48" y="176" fill="#C7D6D0" font-family="Segoe UI,Arial,sans-serif" font-size="22">Start with a question.</text>
+  <text x="48" y="207" fill="#C7D6D0" font-family="Segoe UI,Arial,sans-serif" font-size="22">Follow it deeper.</text>
+  <text x="49" y="266" fill="#8EA89E" font-family="Consolas,monospace" font-size="12" letter-spacing="1">@Veer1801</text>
+  <g fill="none" stroke="url(#edge)" stroke-width="1.7">
+    <path d="M650 150C685 150 685 80 724 80M650 150C685 150 685 220 724 220M650 150H824M736 80C787 80 787 150 824 150M736 220C787 220 787 150 824 150M842 150C878 150 878 94 914 94M842 150C878 150 878 206 914 206"/>
+  </g>
+  <circle cx="642" cy="150" r="25" fill="#183229" stroke="#94E2C5" stroke-width="1.5"/>
+  <text x="642" y="157" text-anchor="middle" fill="#B2F4DC" font-family="Segoe UI,Arial,sans-serif" font-size="22">?</text>
+  <g fill="#192A25" stroke="#73B99E" stroke-width="1.5"><circle cx="730" cy="80" r="8"/><circle cx="730" cy="220" r="8"/><circle cx="920" cy="94" r="8"/><circle cx="920" cy="206" r="8"/></g>
+  <circle cx="834" cy="150" r="17" fill="#94E2C5"/>
+  <circle cx="834" cy="150" r="5" fill="#173B30"/>
+  <text x="730" y="56" text-anchor="middle" fill="#8EA89E" font-family="Consolas,monospace" font-size="11">explore</text>
+  <text x="730" y="250" text-anchor="middle" fill="#8EA89E" font-family="Consolas,monospace" font-size="11">question</text>
+  <text x="834" y="188" text-anchor="middle" fill="#B0C5BA" font-family="Consolas,monospace" font-size="11">connect</text>
+  <circle cx="974" cy="26" r="3" fill="#94E2C5"/>
+</svg>

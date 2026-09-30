@@ -8,6 +8,7 @@
   <a href="https://www.linkedin.com/in/veerpatel1801/"><b>LinkedIn</b></a> &nbsp; · &nbsp;
   <a href="https://github.com/Veer1801/Veer1801/blob/main/resume/Veer-Patel-Resume.pdf"><b>Resume (PDF)</b></a> &nbsp; · &nbsp;
   <a href="https://leetcode.com/u/Veer_18/"><b>LeetCode</b></a> &nbsp; · &nbsp;
+  <a href="https://medium.com/@veer.tech.ai"><b>Medium</b></a> &nbsp; · &nbsp;
   <a href="mailto:veerpatel1801@gmail.com"><b>Email</b></a>
 </p>
 
